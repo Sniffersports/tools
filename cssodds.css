@@ -1,0 +1,80 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://i.imgur.com/SH9Gfe3.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+h1 {
+    font-size: 36px;
+    color: white;
+    }
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 5px 5px;
+    cursor: pointer;
+}
+.botao-voltar {
+display: inline-block;
+padding: 10px 0px;
+background-color: red; /* Cor de fundo do botão */
+color: #FFF; /* Cor do texto do botão */
+text-decoration: none; /* Remove o sublinhado do link */
+border-radius: 5px; /* Borda arredondada */
+transition: background-color 0.3s; /* Transição suave de cor ao passar o mouse */
+text-align:center;
+width:100%;
+}
+
+.botao-voltar:hover {
+background-color: #0056b3; /* Cor de fundo alterada ao passar o mouse */
+}
+
+#resultado {
+margin-top: 20px;
+font-size: 35px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        border-radius: 0;
+    }
+    body {
+        background-position: center;
+        background-size: cover;
+        height:96vh;
+        }
+    h1 {
+font-size: 24px;
+color: white;
+margin-top:35px
+}
+}
