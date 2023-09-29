@@ -63,10 +63,12 @@ font-size: 35px;
 }
 
 @media (max-width: 768px) {
-    .container {
-        max-width: 100%;
-        border-radius: 0;
-    }
+.container {
+    max-height: 72vh;
+    overflow-y: auto;
+    text-align: center;
+    width: 80%;
+}
     body {
         background-position: center;
         background-size: cover;
