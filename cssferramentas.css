@@ -114,11 +114,12 @@ background-color: #0056b3; /* Cor de fundo alterada ao passar o mouse */
     .tool {
         width: calc(55% - 20px);
         background-position: center; /* Isso centralizará a imagem no dispositivo móvel */
+        padding:10px;
     }
     .container {max-height: 72vh;
     overflow-y: auto;
     text-align: center;
-    width: 85%; }
+    width: 80%; }
     body {
         background-position: center;
         background-size: cover;
