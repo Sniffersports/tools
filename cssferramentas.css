@@ -118,7 +118,7 @@ background-color: #0056b3; /* Cor de fundo alterada ao passar o mouse */
     .container {max-height: 72vh;
     overflow-y: auto;
     text-align: center;
-    width: 90%; }
+    width: 80%; }
     body {
         background-position: center;
         background-size: cover;
