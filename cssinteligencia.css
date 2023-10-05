@@ -107,19 +107,18 @@ width:100%;
 a.botao-voltar:hover {
 background-color: #0056b3; /* Cor de fundo alterada ao passar o mouse */
 }
-@media (max-width: 768px) {
-    .container {
-        max-width: 100%;
-        border-radius: 0;
-    }
-    body {
-        background-position: center;
-        background-size: cover;
-        height:96vh;
-        }
-    h1 {
-font-size: 24px;
-color: white;
-margin-top:35px
+.embed-responsive {
+    position: relative;
+    padding-bottom: 100%; /* Proporção 1:1 (para fazer um quadrado de 400x400 pixels) */
+    height: 0;
+    overflow: hidden;
 }
+
+.embed-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 50%;
+    margin-left:5%;
 }
