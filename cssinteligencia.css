@@ -113,9 +113,8 @@ background-color: #0056b3; /* Cor de fundo alterada ao passar o mouse */
     height: 0;
     overflow: hidden;
 }
-iframe {
-    padding-bottom: 11%;
-}
+
+
 .embed-responsive iframe {
     position: absolute;
     top: 0;
@@ -124,3 +123,11 @@ iframe {
     height: 50%;
     margin-left:5%;
 }
+@media (max-width: 768px) {
+    .embed-responsive {
+        position: relative;
+        padding-bottom: 120%;
+        height: 0;
+        overflow: auto;
+    }
+    }
